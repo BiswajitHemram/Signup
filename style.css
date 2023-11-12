@@ -59,3 +59,29 @@ main .picture{
     font-size: 18px;
 }
 /* END */
+
+/* signupArea/quote */
+main .signupArea{
+    width: 60vw;
+}
+
+div.quote{
+    background-color: rgb(208, 220, 220);
+    height: 40vh;
+    position: relative;
+}
+
+.quote p{
+    font-weight: 5100;
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+}
+
+.quote p#youWant{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+/* End */
