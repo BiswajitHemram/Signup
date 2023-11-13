@@ -22,7 +22,39 @@
                 <p id="youWant">You know you want to</p>
             </div>
             <div class="signup">
-
+                <form action="#">
+                    <div class="form">
+                        <p class="form-title">Let's do this!</p>
+                        <div class="input">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" name="First-Name" id="firstName" required placeholder="Robert">
+                        </div>
+                        <div class="input">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" name="Last-Name" id="lastName" required placeholder="Mark">
+                        </div>
+                        <div class="input">
+                            <label for="Email">Email *</label>
+                            <input type="email" name="Email" id="Email" required placeholder="abc@gmail.com">
+                        </div>
+                        <div class="input">
+                            <label for="Phone">Phone Number *</label>
+                            <input type="number" name="phone" id="Phone" placeholder="0123456789" pattern="[0-9]{10}" required >
+                        </div>
+                        <div class="input">
+                            <label for="psd">Password *</label>
+                            <input type="text" name="password" id="psd" required>
+                        </div>
+                        <div class="input">
+                            <label for="cpsd">Confrim Password *</label>
+                            <input type="text" name="confrim-password" id="cpsd" required>
+                        </div>
+                        <div id="createBtn">
+                            <button type="submit">Create Account</button>
+                        </div>
+                    </div>
+                    <p class="login">Already have and account? <a href="/" target="_self">Login</a></p>
+                </form>
             </div>
         </div>
     </main>
